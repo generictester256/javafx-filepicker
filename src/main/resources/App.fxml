@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.FXMLController">
+   <children>
+      <TextArea fx:id="filesText" layoutX="50.0" layoutY="93.0" prefHeight="241.0" prefWidth="369.0" />
+      <Button fx:id="fileSelectionButton" layoutX="493.0" layoutY="201.0" mnemonicParsing="false" onAction="#selectFiles" text="Select Files" />
+   </children>
+</AnchorPane>
